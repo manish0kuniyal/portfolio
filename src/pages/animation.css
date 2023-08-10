@@ -1,0 +1,41 @@
+
+.three-scene{
+  width: 50%;
+}
+
+@media only screen and (max-width: 550px) {
+  .title-name {
+    font-size: 1rem;margin-left: 7%;
+  }
+  .text-bx{
+    line-height: 4rem;
+    font-size: 8.5vmin;
+    margin-top: 5vmin;
+    margin-right: 0;
+    padding-top: -1vmin;
+  }
+  .home-box{
+    margin-top: -10px;
+  }
+  .dark-light{
+    margin-top: 5%;
+  }
+   
+}
+@media only screen and (min-width: 1250px) {
+.home-box{
+   padding-left: 50px;
+   margin-top: 20px;
+   padding-top: 20px;
+}
+.text-bx{
+  font-size: 6vmin;
+}
+.sphere{
+  margin-left: 20vmin;
+}
+.main-box{
+  padding:2vmin 10vmin;
+}
+  
+}
